@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
+
+.header {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  /* width: 300px; */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+.rounded-image {
+  flex: 0 0 80px; /* Adjust the width and height of the image container */
+  border-radius: 50%; /* Ensure a perfect circle */
+  overflow: hidden;
+  width: 70%; /* Make the container take up the full width */
+  padding-top: 100%; /* Set padding based on width to maintain aspect ratio */
+  position: relative;
+}
+
+.rounded-image img {
+  width: 100%; /* Ensure the image takes up the full width of the container */
+  height: 100%; /* Ensure the image takes up the full height of the container */
+  object-fit: contain; /* Maintain the aspect ratio and contains the container */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dark-app .dark-skill {
+  color: #fff;
+}

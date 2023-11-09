@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
+
+.header {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
+}
+
+.aboutMyself {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.card {
+  border: 3px solid black;
+  border-radius: 1.25rem;
+}
+
+.typing-container {
+  height: 200px; /* Set the desired fixed height */
+  overflow-y: auto;
+  white-space: pre-line; /* Allow text wrapping and preserve line breaks */
+  /* Other CSS styles for your container */
+}
+
+.dark-app .card {
+  background-color: #1f2029;
+  color: #fff;
+}
+
+.dark-app .without-card {
+  background-color: #1f2029;
+  color: #fff;
+}
+
